@@ -172,7 +172,7 @@ async function generateCard(sectionC, flag) {
 //NAVBAR 
 
 var nav = document.createElement('nav');
-nav.setAttribute('class', 'navbar navbar-expand-lg navbar-light bg-light');
+nav.setAttribute('class', 'navbar  navbar-expand-lg navbar-light bg-light ');
 document.body.append(nav);
 
 
@@ -199,7 +199,7 @@ nav.append(collapse);
 //UL
 
 var ul = document.createElement('ul');
-ul.setAttribute('class', 'navbar-nav row justify-content-around');
+ul.setAttribute('class', 'navbar-nav row justify-content-between');
 collapse.append(ul);
 
 //LI
@@ -380,7 +380,7 @@ fashion.append(fashion_btn);
 
 //FOOD
 var food = document.createElement('li');
-food.setAttribute('class', 'nav-item col');
+food.setAttribute('class', 'nav-item col ');
 
 ul.append(food);
 
@@ -399,7 +399,7 @@ food.append(food_btn);
 
 //TRAVEL
 var travel = document.createElement('li');
-travel.setAttribute('class', 'nav-item col');
+travel.setAttribute('class', 'nav-item col ');
 ul.append(travel);
 
 
