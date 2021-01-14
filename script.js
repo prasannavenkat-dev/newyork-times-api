@@ -199,7 +199,7 @@ nav.append(collapse);
 //UL
 
 var ul = document.createElement('ul');
-ul.setAttribute('class', 'navbar-nav row text-center');
+ul.setAttribute('class', 'navbar-nav row ');
 collapse.append(ul);
 
 //LI
