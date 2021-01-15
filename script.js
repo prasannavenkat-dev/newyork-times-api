@@ -92,7 +92,7 @@ async function generateCard(sectionC, flag) {
 
       //TITLE
 
-      title[index] = document.createElement('h2');
+      title[index] = document.createElement('h3');
       title[index].setAttribute('class', 'card-title  titlecard');
       cardBody[index].append(title[index]);
 
