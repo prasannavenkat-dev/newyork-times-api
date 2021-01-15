@@ -161,13 +161,18 @@ async function generateCard(sectionC, flag) {
 
 
       abstract[index].innerHTML = response.results[index].abstract;
-      img[index].setAttribute('src', response.results[index].multimedia[4].url);
+      img[index].setAttribute('src', response.results[index].multimedia[3].url);
 
    };
 
 
 }
+//HEADER 
 
+var header = document.createElement('div');
+header.setAttribute('class','container-fluid text-center header');
+header.innerHTML='The New York Times';
+document.body.append(header);
 
 //NAVBAR 
 
