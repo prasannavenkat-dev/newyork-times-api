@@ -39,7 +39,7 @@ async function generateCard(sectionC, flag) {
    var img = [];
 
    if (flag === 1) {
-      $('.container-fluid').remove()
+      $('.header').remove()
    }
 
 
