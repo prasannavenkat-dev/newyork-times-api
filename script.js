@@ -39,7 +39,7 @@ async function generateCard(sectionC, flag) {
    var img = [];
 
    if (flag === 1) {
-      $('.header').remove()
+      $('.mycard').remove()
    }
 
 
@@ -50,7 +50,7 @@ async function generateCard(sectionC, flag) {
 
       //CONTAINER
       var container = document.createElement('div');
-      container.setAttribute('class', 'container-fluid');
+      container.setAttribute('class', 'container-fluid mycard');
       container.setAttribute('id', 'containerID');
       document.body.append(container);
 
